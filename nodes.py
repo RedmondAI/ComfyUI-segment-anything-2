@@ -8,7 +8,7 @@ import random
 from tqdm import tqdm
 from contextlib import nullcontext
 
-from .load_model import load_model
+from sam2_custom_node.load_model import load_model
 
 import comfy.model_management as mm
 from comfy.utils import ProgressBar, common_upscale
